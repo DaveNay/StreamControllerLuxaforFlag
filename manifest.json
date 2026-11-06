@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "author": "Dave Nay",
+    "thumbnail": "store/Thumbnail.png",
+    "id": "com_davenay_LuxaforFlag",
+    "name": "Luxafor Flag",
+    "descriptions": {
+        "en_US": "Control a Luxafor Flag USB status light with direct USB HID communication -- no Luxafor SDK and no Luxafor cloud/web API involved. Assign a color (including Off) to a button; pressing it lights the Flag that color. Every Luxafor Flag button on your deck automatically shows whether its own color is the one currently active, so a bank of color buttons behaves like a set of radio buttons."
+    },
+    "short-descriptions": {
+        "en_US": "Set your Luxafor Flag's color over direct USB HID"
+    },
+    "tags": ["Utility"],
+    "minimum-app-version": "1.5.0-beta.15",
+    "app-version": "1.5.0-beta.16",
+    "github": "https://github.com/DaveNay/StreamControllerLuxaforFlag",
+
+    "description": "Control a Luxafor Flag USB status light with direct USB HID communication -- no Luxafor SDK and no Luxafor cloud/web API involved. Assign a color (including Off) to a button; pressing it lights the Flag that color. Every Luxafor Flag button on your deck automatically shows whether its own color is the one currently active, so a bank of color buttons behaves like a set of radio buttons.",
+    "short-description": "Set your Luxafor Flag's color over direct USB HID"
+}

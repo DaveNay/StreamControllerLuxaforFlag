@@ -1,0 +1,19 @@
+{
+    "plugin": {
+        "description": "Sets a Luxafor Flag USB status light to a color. Every Set Color key shows whether its own color is the one the Flag currently shows, so a row of them behaves like radio buttons.",
+        "requirements": "A Luxafor Flag plugged in over USB, and the udev rule from the plugin's udev/ folder installed so StreamController can open it without root."
+    },
+    "actions": {
+        "SetColor": {
+            "description": "Sets the Flag to the configured color when pressed. The key shows a bright dot when that color is active and a dim outline otherwise.",
+            "settings": {
+                "color": {
+                    "type": "string",
+                    "default": "off",
+                    "values": ["off", "red", "green", "blue", "cyan", "magenta", "yellow", "white"],
+                    "description": "The color to set. \"off\" turns the Flag off."
+                }
+            }
+        }
+    }
+}

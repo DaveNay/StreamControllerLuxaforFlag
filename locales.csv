@@ -1,0 +1,13 @@
+key;en_US
+plugin.name;Luxafor Flag
+actions.set-color.name;Set Color
+actions.set-color.color-row.label;Color:
+actions.set-color.color.off;Off
+actions.set-color.color.red;Red
+actions.set-color.color.green;Green
+actions.set-color.color.blue;Blue
+actions.set-color.color.cyan;Cyan
+actions.set-color.color.magenta;Magenta
+actions.set-color.color.yellow;Yellow
+actions.set-color.color.white;White
+actions.set-color.event.pressed;Set color
